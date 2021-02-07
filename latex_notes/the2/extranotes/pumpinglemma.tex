@@ -1,0 +1,23 @@
+\documentclass{article}
+\begin{document}
+\section{Pumping lemma}
+Let L be a regular language. Then there exists some positive integer n such that for every w in L with length at least N we can decompose w into 3 strings, w = xyz, such that :
+\begin{itemize}
+	\item $y \neq \lambda$
+	\item $ \left | xy \right | \leq n$
+	\item for every $k \geq 0$ the string $xy^kz$ is also in L
+\end{itemize}
+\subsection{Example}
+Consider : $L_{eq} = {w\:\epsilon\:{0,1}*\;|\:w\:has\:an\:equal\:number\:of\:0s\:and\:1s} $\\
+Claim : $L_{eq}$ is not regular\\
+Proof : The proof is by contradiction. Assume that $L_{eq}$ is regular and let n be the positive integer that exists according to the pumping lemma.\\
+We pick a string w in $L_{eq}$, namely w = $0^n1^n$. Clearly $|w| \geq n$ so by the pumping lemma w=xyz such that  $|xy| \leq n$ and $y \neq \lambda$\\
+We can deduce from this that xy is made up entirely of 0s, and hence y consists of one or more 0s.\\
+By the pumping lemma $xy^2$ must be in the language but this equals $0^p1^n$, where $p > n$ so there are more 0s than 1s and therefore it isnt in the language and our assumption that $L_{eq}$ is regular must be incorrect.
+\subsection{Boilerplate}
+Proof: The proof is by contradiction. Assume that $L_{ww}$ is regular and let n be the positive integer that exists according to the pumping lemma.\\
+We pick a string w in $L_{ww}$, namely w = \qquad. Clearly $|w| \geq n$ so by the pumping lemma w = xyz, such that $|xy| \leq n$ and $y \neq \lambda$\\
+We can deduce from this that xy is \qquad \qquad , and hence that y consists of \qquad \qquad.\\
+By the pumping lemma, xyz must be in the language but this quals \qquad\qquad\qquad and therefore isnt in the language.\\
+Hence we have a contradiction and our assumption that $L_{ww}$ is regular must be wrong.
+\end{document}

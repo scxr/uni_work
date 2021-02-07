@@ -1,0 +1,69 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=latex 2021.1.11)  11 JAN 2021 16:07
+entering extended mode
+**./summative.tex
+(summative.tex
+LaTeX2e <2020-10-01> patch level 2
+L3 programming layer <2020-12-07> xparse <2020-03-03>
+(C:\Users\Charlie\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
+Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
+(C:\Users\Charlie\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.clo
+File: size12.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
+)
+\c@part=\count177
+\c@section=\count178
+\c@subsection=\count179
+\c@subsubsection=\count180
+\c@paragraph=\count181
+\c@subparagraph=\count182
+\c@figure=\count183
+\c@table=\count184
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+)
+(C:\Users\Charlie\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-d
+vips.def
+File: l3backend-dvips.def 2020-09-24 L3 backend support: dvips
+\l__pdf_internal_box=\box47
+\g__pdf_backend_object_int=\count185
+\l__pdf_backend_content_box=\box48
+\l__pdf_backend_model_box=\box49
+\g__pdf_backend_annotation_int=\count186
+\g__pdf_backend_link_int=\count187
+\g__pdf_backend_link_sf_int=\count188
+) (summative.aux)
+\openout1 = `summative.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 4.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 4.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 4.
+ [1
+
+] (summative.aux) ) 
+Here is how much of TeX's memory you used:
+ 416 strings out of 479698
+ 7907 string characters out of 2866209
+ 274443 words of memory out of 3000000
+ 17585 multiletter control sequences out of 15000+200000
+ 406166 words of font info for 36 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 43i,4n,49p,155b,100s stack positions out of 5000i,500n,10000p,200000b,50000s
+
+Output written on summative.dvi (1 page, 336 bytes).

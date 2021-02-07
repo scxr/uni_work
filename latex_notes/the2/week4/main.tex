@@ -1,0 +1,35 @@
+\documentclass[11pt,twoside,a4paper]{article}
+\begin{document}
+\section{Mini Lecture B10 - Equivalence of regular languages}
+A problem is effectively soluble if there is an algorithm that always provides the answer in a finite number of steps, no matter what the inputs are. The maximum number of steps must be predictable before commencing execution procedure.
+\\
+\\
+An effective solution to a problem that has a yes or no answer is called a decision procedure. A problem that has a decision procedure is called a decidable.
+\subsection{Do two FSAs accept the same language?}
+We can test whether the languages are equivalent by : \\
+\begin{enumerate}
+	\item Creating the difference automaton, which accepts strings that are in either one of the languages but not in the other
+	\item Testing whether this automaton accepts any strings
+\end{enumerate}
+If the difference automaton accepts no strings, then the languages are equivalent.\\
+If we can find effective procedures for 1 and 2, then testing whether two automata accept the same language is decidable.
+\subsection{Transforming the equivalence problem}
+\begin{itemize}
+	\item For any two languages $L_1$ and $L_2$ accepted by FSAs, we can use the techniques from earlier to produce an FSA that accepts \\($L_1 - L_2) \cup (L_2 - L_1$)
+	\item This is the language consisting of all strings that are in $L_1$ but not in $L_2$ or in $L_2$ but not in $L_1$
+	\item If $L_1$ and $L_2$ are the same language, then the automaton will not accept any strings
+	\item So, in order to make this into an effective procedure, we need to show that we can test whether an automaton accepts the empty language
+\end{itemize}
+
+\section{Mini Lecture B11 - Finiteness of regular languages}
+\subsection{Testing for (in)finiteness}
+Theorem : Let F be an FSA with n states.\\
+If F accepts infinitely many strings, then F accepts some strings w such that $n\leq \left | w \right | < 2n$
+\begin{itemize}
+	\item If F accepts an infinite language then F contains at least one loop.
+	\item Choose a path which has just one loop.
+	\item The length of this loop cannot be greater than n.
+	\item The one can construct a path the length at least n but less than 2n by going round the circuit the required number of times.
+\end{itemize}
+
+\end{document}
