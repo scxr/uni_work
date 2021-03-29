@@ -1,0 +1,9 @@
+*.pdf
+*.csv
+*.class
+*.odt
+*.docx
+*.pyc
+**/__pycache__
+**/SYS
+**/summatives
